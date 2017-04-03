@@ -5,6 +5,7 @@
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
+  "homepage": "electricknees.herokuapp.com",
   "dependencies": {
     "axios": "^0.15.1",
     "react": "^15.3.2",
