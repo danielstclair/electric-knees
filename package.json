@@ -6,7 +6,6 @@
     "concurrently": "^3.4.0",
     "react-scripts": "0.6.1"
   },
-  "homepage": "electricknees.herokuapp.com",
   "dependencies": {
     "axios": "^0.15.1",
     "cluster": "^0.7.7",
