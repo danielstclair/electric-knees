@@ -4,6 +4,11 @@
   "private": true,
   "devDependencies": {
     "concurrently": "^3.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
@@ -12,11 +17,14 @@
     "colors": "^1.1.2",
     "compression": "^1.6.2",
     "express": "^4.15.2",
+    "material-ui": "^0.17.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
+    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
     "redux-thunk": "^2.1.0",
     "uuid": "^3.0.1"
   },
@@ -28,5 +36,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "The website for Electric Knees",
+  "main": "app.js",
+  "repository": "https://github.com/danielstclair/electric-knees.git",
+  "author": "Daniel St. Clair <danielallanstclair@gmail.com>",
+  "license": "MIT"
 }
